@@ -1,0 +1,5 @@
+list <dob__mdt> dat =[select id, label, date__c from dob__mdt];
+    for(dob__mdt d : dat)
+{
+  system.debug(d); 
+}
